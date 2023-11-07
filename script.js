@@ -3,10 +3,10 @@
 function palindrome(str){
 let n=str.length;
 		let startchar=0;
-	   let endchar=str.lenght-1;
+	   let endchar=n-1;
 	 while(startchar<endchar){
-		 if(str[startchar]!=str[endchar]){
-			 return false;
+		 if(str[startchar]!==str[endchar]){
+	       console.log("false");
 		 }
 		 else{
 			  startchar++;
@@ -14,7 +14,7 @@ let n=str.length;
 		 }
 		
 	 }
-	return true;
+	console.log("true");
 	    
 	
 	
